@@ -1,0 +1,236 @@
+@font-face {
+    font-family: "alta";
+    src: url("/fonts/alta-regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "montserrat";
+    src: url("/fonts/Montserrat-VariableFont_wght.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-image: url("/images/fondoinicio2.jpg");
+    background-size: 100% 1150px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecera h1 {
+    font-size: 75px;
+    margin: 0;
+}
+
+.cabecera {
+    height: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(228, 236, 223);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "alta", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 70%;
+    position: sticky;
+    top: 0;
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  
+}
+
+.cabecera span {
+    font-size: 40px;
+     color:rgb(2, 73, 2) ;
+}
+
+.cabecera :first-child {
+    font-size: 60px;
+    color: rgb(1, 87, 1);
+}
+
+.cabecera :last-child {
+    color: rgb(2, 73, 2);
+}
+
+
+#fondo {
+    width: 100%;
+}
+
+header {
+    height: 1150px;
+}
+
+#sectiontitle {
+    font-size: 30px;
+    width: vh;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#sectiontitle h2 {
+    text-align: center;
+}
+
+#sectiontitle p {
+    text-align: justify;
+    margin-left: 10;
+}
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color: initial;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.apartados {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 150px;
+    height: 300px;
+    overflow: hidden;
+    font-family:"montserrat";
+    background-color: rgb(198, 202, 193);
+    transition-duration: 200ms;
+    border-radius: 30px;
+}
+
+.apartados:first-child {
+    margin-top: 100px;
+    height: 400px;
+}
+
+.apartados:nth-child(2){
+    margin-right: 125px;
+    height: 400px;
+    position: relative;
+    display: flex;
+}
+
+.apartados:nth-child(3){
+    width: 1075px;
+    margin-left : 150px;
+    display: flex;
+}
+
+.apartados:last-child{
+    height: 375px;
+    width: 1300px;
+    align-self: flex-end;
+}
+
+.apartados:hover{
+    background-color: rgb(158, 167, 151);
+}
+
+.apartados a {
+    display: flex;
+    color: black;
+}
+
+.apartados figure {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+
+.apartados:first-of-type figure {
+    height: 400px;
+}
+
+.apartados:first-of-type figcaption {
+    font-size: 23px;
+}
+
+.apartados:nth-of-type(2) figcaption {
+    height: 400px;
+    width: 900px;
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(198, 202, 193);
+    margin-top:0;
+    margin-bottom: 0;
+    transition: color 200ms;
+    margin-left: 0;
+    transition-duration: 200ms;
+}
+
+.apartados:nth-of-type(2) img:hover {
+    transform: scale(0.8);
+}
+
+.apartados:nth-of-type(2) figcaption p {
+    margin-left: 40px;
+}
+
+.apartados:nth-of-type(2) figcaption:hover{
+    background-color: rgb(158, 167, 151);
+} 
+
+
+.apartados:nth-of-type(2) img {
+   right: 0;
+   position: absolute;
+   z-index: 1;
+   transition-duration: 400ms;
+   transition-delay: 80ms;
+   left: 600px;
+   width: auto;
+   align-self: center;
+}
+
+.apartados:last-of-type figure {
+    height: 375px;
+}
+
+.apartados figcaption {
+    margin: 40px;
+    font-size: 25px;
+    overflow: hidden;
+    align-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(192, 204, 192);
+    font-family: "montserrat";
+    font-weight: bold;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+}
+
+#footerrange {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#bocadillo {
+    height: auto;
+    width: 200px;
+}
+
+
