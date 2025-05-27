@@ -1,13 +1,13 @@
 @font-face {
     font-family: "alta";
-    src: url("/fonts/alta-regular.woff2") format("woff2");
+    src: url("fonts/alta-regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family: "montserrat";
-    src: url("/fonts/Montserrat-VariableFont_wght.woff2") format("woff2");
+    src: url("fonts/Montserrat-VariableFont_wght.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
