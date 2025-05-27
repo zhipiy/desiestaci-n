@@ -14,7 +14,7 @@
 
 body {
     margin: 0;
-    background-image: url("/images/fondoinicio2.jpg");
+    background-image: url("./images/fondoinicio2.jpg");
     background-size: 100% 1150px;
     background-repeat: no-repeat;
     background-position-x: center;
