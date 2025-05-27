@@ -172,7 +172,7 @@ section {
 }
 
 .apartados:nth-of-type(2) img:hover {
-    transform: scale(0.8);
+    transform: scale(0.9);
 }
 
 .apartados:nth-of-type(2) figcaption p {
