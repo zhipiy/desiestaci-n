@@ -217,6 +217,9 @@ footer {
     width: 100%;
     position: sticky;
     bottom: 0;
+}
+
+footer a {
     color: black;
 }
 
